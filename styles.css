@@ -1,0 +1,160 @@
+p{font-weight:450;
+font-size:1.05rem;
+}
+
+/* header */
+
+.navbar{background-color: #BFDCE5 !important;
+text-align: left;
+padding-top:1%;}
+
+#header{background-color: #BFDCE5;
+text-align:center;}
+
+.sshkd-logo{width:10%;
+margin:1% 1%;
+margin-left:2%;}
+
+.red-header{padding:1.5%;
+width:75%;
+margin: 0 auto 0 auto;}
+
+.kol-sshkd{padding-top:0.5rem;}
+
+.sisk-header{padding-right: 3%;
+    padding-bottom:7%;
+padding-top:5%;
+width: 800px;}
+
+.gumb-header{
+margin: 1% 0%;
+margin-right:1%;}
+
+
+/* .gumb-prijava{background-color:#C4DFAA !important;}
+.gumb-prijava:hover{background-color:black !important;} */
+
+.nav-item{margin:0 3%;}
+
+.nav-link:hover{color:#0A2647 !important;}
+
+/*intro*/
+
+#intro{padding:10% 12%;}
+
+.par-centar{font-size:1.2rem;
+    text-align: center;
+    margin:5% auto;
+    line-height: 2;}
+
+/*plenarni*/
+
+.carousel-item{background-color: #3C84AB;
+color:white;}
+
+
+
+/*footer*/
+
+#footer{background-color: #3C84AB;
+color:white;
+padding:6% 20%;}
+
+.ikona {padding-right: 7%;
+margin-bottom:10%;}
+
+.ikona:hover{color:#0A2647 !important;}
+
+.red-footer{margin: 5% 0;}
+
+.dka{text-align: right;
+padding-right:10%;}
+
+.p-footer-dka{font-size:1.25rem;
+font-weight:470;}
+
+
+
+                        /* druge stranice */
+
+
+
+#informacije{padding:10% 12%;}
+
+
+
+                /* sponzori */
+
+
+#sponzori{padding:5% 25%;}
+
+.zahvala-sid{text-align: center;
+margin: 5% auto;}
+
+#organizacija{padding:10% 20%;}
+
+#prijava{padding:10% 20%;}
+
+#galerija{padding:10% 20%;}
+
+/* između 990px i 1450 px */
+
+@media (min-width:1070px) and (max-width:1450px) {
+    .navbar{background-color: #BFDCE5 !important;
+        text-align: left;
+        padding-top:1%;}
+        
+        #header{background-color: #BFDCE5;
+        text-align:center;}
+        
+        .sshkd-logo{width:10%;
+        margin-left:5%;}
+        
+        .red-header{padding:1.5%;
+        width:90%;
+        margin: 0 auto 0 auto;}
+        
+        .kol-sshkd{padding-top:0.5rem;}
+        
+        .sisk-header{padding-right: 2%;
+            padding-bottom:7%;
+            padding-top:5%;}
+        
+        .gumb-header{
+        margin-right: 1%;}
+        
+        .nav-item{margin:0 1%;}
+}
+
+@media (max-width:1070px) {
+    .red-header{width: 100%;}
+    .nav-item{margin:0;}
+    .gumb-header{margin-right: 0.3;}
+    .sisk-header{width: 80%;}
+}
+
+@media (min-width:770px) and (max-width:830px) {
+    p{font-size:0.95rem;}
+}
+
+
+@media (max-width:780px) {
+    p{font-size:0.85rem;}
+    .dka{text-align:right;}
+    .red-footer{margin:10% 0%;}
+    #footer{padding:2% 2%;
+    }
+}
+
+@media(max-width:580px){
+    .red-footer{margin:2rem 0;}
+    .dka{text-align:left;}
+    .par-centar{font-size:larger;}
+}
+
+ @media/*(min-width:505px)and*/ (max-width:590px){
+    .kol-sshkd{text-align:right !important;}
+}
+
+
+
