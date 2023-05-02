@@ -496,6 +496,7 @@ padding-top: 5%;}
 @media(max-width: 650px){.gugl-forma{width: 450px;}} 
 @media (max-width: 500px){.gugl-forma{width:400px;}}
 @media (max-width:830px) and (min-width:650px){.gugl-forma{width:550px;}}
+@media (max-width: 450px){.gugl-forma{width:350px;}}
 
                     /* prijava pasivni */
 
