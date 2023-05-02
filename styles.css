@@ -493,9 +493,9 @@ padding-top: 5%;}
 .prijava-heder-div{padding-bottom: 5%;}
 .aktivni-pravila-p-lista{font-size: 1.1rem;}}
 
-@media(max-width: 650px){.gugl-forma{width: 500px;}} 
-@media (max-width: 500px){.gugl-forma{width:450px;}}
-
+@media(max-width: 650px){.gugl-forma{width: 450px;}} 
+@media (max-width: 500px){.gugl-forma{width:400px;}}
+@media (max-width:830px) and (min-width:650px){.gugl-forma{width:550px;}}
 
                     /* prijava pasivni */
 
