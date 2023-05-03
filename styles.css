@@ -1,6 +1,26 @@
+body{
+font-weight: 600;}
+
+
+
 p{font-weight:450;
 font-size:1.05rem;
 }
+
+@font-face {
+    font-family: 'candararegular';
+    src: url('candara_font-webfont.woff2') format('woff2'),
+         url('candara_font-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+h1, h2, h3, h4 {font-family: 'candararegular', candara , sans-serif;
+    font-weight: 600;}
+
+.button{font-family: 'candararegular', candara , sans-serif;
+    font-weight: normal;}
 
 /* header */
 
@@ -83,6 +103,7 @@ border:none;}
     @media(max-width:600px){
     .cekamo-te{
     padding: 3% 4%;}}
+
 
 
     /* sto trebas feature style */
@@ -169,14 +190,15 @@ line-height: 2;}
 
 @media(max-width:700px){.karta-p{font-size:1.2rem;
 padding:0 3%;}
-.kol-karta-upute{padding:10% 0%;}
+.kol-karta-upute{padding:10% 0% 0%;}
 }
 @media(max-width:500px){.karta-p{padding:0 1%;}}
 
 
 
 
-
+#rokovi{padding: 0 10% 7%;
+margin-top: 0;}
 
 /*plenarni*/
 
@@ -184,6 +206,9 @@ padding:0 3%;}
 
 .carousel-item{background-color: #3C84AB;
 color:white;}
+
+
+@media(max-width: 700px){#rokovi{padding: 0% 5% 7%;}}
 
 
 
@@ -408,10 +433,12 @@ justify-content: center;}
             /* informacije */
 
 #informacije{padding: 5% 25%;
-text-align:left !important;}
+text-align:left !important;
+text-align: justify;}
 .masa-ljudi-brt{width: 100%;
 text-align:center;
 padding: 10% 0 3%;}
+.par-informacije{text-align: justify;}
 
 #stari-sisk{padding: 0 30% 5%;}
 .kol-stari-sisk{display: flex;
@@ -456,18 +483,36 @@ text-align:center;}
 @media (max-width: 1015px){.pitanja-col{height:300px;}}
 
 @media(max-width:991px){.pitanja-col{height:230px;}}
-@media(max-width: 700px){#prijava-selection{padding: 7% 0;}}
-@media(max-width: 450px){.col-prijava-prijava{height: 400px;}
-.aktivni-col-prijava{height:350px;}
-.p-prijava-pitanja{font-size: 1.2rem;}}
+@media(max-width: 700px){#prijava-selection{padding: 7% 2%;
+text-align: center;}
+}
+
 @media(max-width: 550px){.pitanja-col{height:230px;}
 .pasivni-col-prijava{height:280px;}
 .gumb-aktivni-prijava{margin:0;
 margin-top:15%;} 
-}
+} 
+
+@media(max-width: 450px){.col-prijava-prijava{height: 450px;}
+.aktivni-col-prijava{height:300px;}
+.pasivni-col-prijava{height:330px;}
+.p-prijava-pitanja{font-size: 1.1rem;}}
+
+
 @media(max-width:350px){.p-prijava-pitanja{font-size: 1.1rem;}}
 
-@media(max-width:991px){.col-prijava-prijava{height:auto;}}
+@media(max-width:991px){
+.gumb-aktivni-prijava{margin: 5% 0;}}
+@media (max-width:600px){.p-prijava-pitanja{font-size: 1.2rem;
+padding-left:0%;
+padding-right:0%;
+margin-left:0%;
+margin-right:0%;}
+.red-sudionik-index{padding:0;
+margin: auto;
+width:97%;}
+.aktivni-col-prijava{padding: auto 0;
+margin: auto 0;}}
 
 
 
@@ -506,8 +551,3 @@ padding-top: 5%;}
 
 
     
-
-
-
-
-
