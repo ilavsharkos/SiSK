@@ -283,6 +283,9 @@ margin-top:5%;}
 
 .donator-logo{width:60%;
 margin-top:3%;}
+.szpmf-logo{width: 70%;}
+.szunizg-logo{width: 35%;}
+.logo-cute{width: 30%;}
 
 .h2-donatori{padding-top:3%;
 padding-bottom:0;}
@@ -304,6 +307,7 @@ border-width: 2pt;}
 #pok-par-org{padding: 0 10% 10%;
 text-align: center;}
 .slike-loga-pok-par-org{width:60%;}
+.partneri-veci{width:80%;}
 
 .red-pokrovitelji{padding: 0 20%;}
 
@@ -314,7 +318,8 @@ text-align: center;}
 .red-partneri{padding: 0 5%;}
 .red-organizatori{padding: 0 35%;}}
 
-@media(max-width: 768px){.slike-loga-pok-par-org{padding: 9% 5%;}}
+@media(max-width: 768px){.slike-loga-pok-par-org{padding: 9% 5%;}
+}
 
 .col-pok-par-org{display: flex;
 align-items: center;
@@ -397,6 +402,9 @@ justify-content: center;}
 
     .donator-logo{width:40%;
     padding:5% 0;}
+    .logo-cute{width: 20%;}
+    .szunizg-logo{width: 20%;}
+    
 
     .par-informacije{padding-top:2.5rem;}
 }
@@ -410,12 +418,18 @@ justify-content: center;}
 
     .donator-logo{width:45%;
         padding:2% 0;}
+    .logo-cute{width: 22%;}
+    .szunizg-logo{width: 20%;}
+ 
 
     .col-donatori{height:180px;}
 }
 
 @media (max-width:360px){.col-donatori{height: 150px !important;}
 .donator-logo{width: 60%;}}
+.logo-cute{width: 30%;}
+.szunizg-logo{width: 30%;}
+
 
  @media/*(min-width:505px)and*/ (max-width:590px){
     .kol-sshkd{text-align:right !important;}
@@ -553,7 +567,8 @@ padding-top: 5%;}
 
                     /*organizacija*/
     
-#organizacija{padding: 3% 15% 3%;}
+#organizacija{padding: 3% 15% 3%;
+text-align: center;}
 .slike-org{width:90%;
 text-align:center;
 }
@@ -574,7 +589,12 @@ font-family: 'candararegular', candara , sans-serif;
 margin: 5% 5% 0;
 }
 
-h1.organizacija{padding-bottom: 2%;}
+h1.organizacija{padding-bottom: 0%;
+margin-bottom: 0;}
+
+#organizacija > .timovi-h2 {
+    margin: 7% auto 7%;
+}
 
 div.timovi{
     margin: 10% auto;
